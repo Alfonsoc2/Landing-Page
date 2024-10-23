@@ -1,0 +1,21 @@
+
+
+.header {
+    background-color: #1F2937;
+    text-size-adjust: 24px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-items: center;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+    padding-right: 100px;
+    align-items: center;
+}
