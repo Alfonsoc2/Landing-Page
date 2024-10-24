@@ -17,10 +17,9 @@ body {
     color: #F9FAF8;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-left: 100px;
-    align-items: center;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .header ul {
@@ -37,14 +36,13 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
     margin: 0;
 }
 .container {
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     gap: 80px;
@@ -62,6 +60,9 @@ body {
 .section1 button {
     background-color:#3882f6;
     color:#F9FAF8;
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section2 img {
