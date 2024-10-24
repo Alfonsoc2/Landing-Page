@@ -1,21 +1,129 @@
 
+body {
+    font-family: 'roboto', sans-serif;
+}
+
 
 .header {
     background-color: #1F2937;
-    text-size-adjust: 24px;
+    font-size: 24px;
     color: #F9FAF8;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 100px;
     align-items: center;
+    flex-wrap: nowrap;
 }
 .header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin: 20px;
+    margin: 30px;
     padding-right: 100px;
     align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 80px;
+    color: #F9FAF8;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-top: 0px;
+}
+.section1 h2 {
+    font-size:  48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.section1 button {
+    background-color:#3882f6;
+    color:#F9FAF8;
+}
+
+.section2 img {
+    width: 100px;
+    height: 100px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.section2 li {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section3 {
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 10px;
+    background-color:#E5E7EB ;
+    align-items: end;
+    align-items: center;
+}
+
+.section3 p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.callto {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
